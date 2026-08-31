@@ -26,7 +26,7 @@ A collection of interactive, browser-based arcade and puzzle games hosted direct
 
 ## 🚀 How to Run Locally
 
-1. Clone the repository:
-   ```bash
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/Yokeshwaran0308/VS_GAME.git
-```
