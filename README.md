@@ -18,14 +18,15 @@ A collection of interactive, browser-based arcade and puzzle games hosted direct
 
 ## 🛠️ Built With
 
-* **HTML5 & CSS3** – Structure, modern UI layouts, and styling
-* **JavaScript** – Game logic, rendering, and collision handling
-* **GitHub Pages** – Automated deployment and web hosting
-
+- **Python & Pygame** – Game development and game logic
+- **Pygbag** – Converts Pygame games to browser-compatible web builds
+- **HTML5 & CSS3** – Website structure and styling
+- **GitHub Pages** – Web hosting and deployment
 ---
 
 ## 🚀 How to Run Locally
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yokeshwaran0308/VS_GAME.git](https://github.com/yokeshwaran0308/VS_GAME.git)
+git clone https://github.com/Yokeshwaran0308/VS_GAME.git
+```
