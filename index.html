@@ -12,6 +12,7 @@
     <meta name="keywords" content="VS_GAME, games, Snake Game, Tic Tac Toe, Space Game, Breakout, Guess the Number, Web Games, Arcade Games">
     <meta name="author" content="V S Yokeshwaran">
     <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="ZxT9FvUqTpzQGFFiPm-Y4AiN1-ww795roeLvRDJJA0E" />
 
     <!-- Open Graph / Facebook / WhatsApp Meta Tags -->
     <meta property="og:type" content="website">
@@ -112,8 +113,6 @@
 
             min-height: calc(100vh - 70px);
 
-            /* YOUR BACKGROUND IMAGE */
-
             background-image:
                 linear-gradient(
                     rgba(0, 0, 0, 0.45),
@@ -137,7 +136,7 @@
 
 
         /* =========================
-           HERO TEXT
+           HERO TEXT & BADGE
         ========================== */
 
         .hero h1 {
@@ -170,6 +169,19 @@
             color: #ddd;
         }
 
+        .device-notice {
+            display: inline-block;
+            margin-top: 18px;
+            padding: 8px 18px;
+            background: rgba(255, 43, 43, 0.12);
+            border: 1px solid rgba(255, 43, 43, 0.4);
+            border-radius: 20px;
+            font-size: 14px;
+            letter-spacing: 1px;
+            color: #ff9999;
+            backdrop-filter: blur(4px);
+        }
+
 
         /* =========================
            BUTTONS
@@ -177,7 +189,7 @@
 
         .hero-buttons {
 
-            margin-top: 35px;
+            margin-top: 30px;
 
             display: flex;
 
@@ -274,7 +286,7 @@
             display: grid;
 
             grid-template-columns:
-                repeat(4, 1fr);
+                repeat(auto-fit, minmax(240px, 1fr));
 
             gap: 20px;
         }
@@ -481,15 +493,6 @@
            RESPONSIVE
         ========================== */
 
-        @media (max-width: 1080px) {
-
-            .game-container {
-
-                grid-template-columns:
-                    repeat(2, 1fr);
-            }
-        }
-
         @media (max-width: 768px) {
 
             nav {
@@ -510,14 +513,14 @@
 
                 font-size: 55px;
             }
+
+            .device-notice {
+                font-size: 13px;
+                padding: 6px 14px;
+            }
         }
 
         @media (max-width: 600px) {
-
-            .game-container {
-
-                grid-template-columns: 1fr;
-            }
 
             .hero h1 {
 
@@ -594,6 +597,10 @@
             <p>
                 PLAY • CHALLENGE • WIN
             </p>
+
+            <div class="device-notice">
+                🖥️ Play on desktop for the best gameplay experience
+            </div>
 
             <div class="hero-buttons">
 
